@@ -1,0 +1,487 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5561017475,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User in Valtech home page",
+            "match": {
+              "location": "Valtech_Tests.launchValtech()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8402692023,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Valtech_Tests.startUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Verify Latest News Section is displaying",
+        "description": "",
+        "id": "tester-should-be-able-to-verify-all-valtech-website-pages.;verify-latest-news-section-is-displaying",
+        "after": [
+          {
+            "result": {
+              "duration": 1558901686,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Valtech_Tests.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 181299532,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Latest News Section is displayed",
+            "match": {
+              "location": "Valtech_Tests.latestNews()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 11,
+            "name": "@Test"
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3336559558,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User in Valtech home page",
+            "match": {
+              "location": "Valtech_Tests.launchValtech()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7040397939,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Valtech_Tests.startUp()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "check the H1 of each page",
+        "description": "",
+        "id": "tester-should-be-able-to-verify-all-valtech-website-pages.;check-the-h1-of-each-page;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 868751664,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Valtech_Tests.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1933973593,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I am in ABOUT",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ABOUT",
+                  "offset": 8
+                }
+              ],
+              "location": "Valtech_Tests.pages(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 113107972,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "H1 should be About",
+            "match": {
+              "arguments": [
+                {
+                  "val": "About",
+                  "offset": 13
+                }
+              ],
+              "location": "Valtech_Tests.h1(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 15,
+            "name": "@Test"
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2573020633,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User in Valtech home page",
+            "match": {
+              "location": "Valtech_Tests.launchValtech()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7276394214,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Valtech_Tests.startUp()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "check the H1 of each page",
+        "description": "",
+        "id": "tester-should-be-able-to-verify-all-valtech-website-pages.;check-the-h1-of-each-page;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 806290673,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Valtech_Tests.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2535331823,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I am in SERVICES",
+            "match": {
+              "arguments": [
+                {
+                  "val": "SERVICES",
+                  "offset": 8
+                }
+              ],
+              "location": "Valtech_Tests.pages(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 90292247,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "H1 should be Services",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Services",
+                  "offset": 13
+                }
+              ],
+              "location": "Valtech_Tests.h1(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 15,
+            "name": "@Test"
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3597282073,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User in Valtech home page",
+            "match": {
+              "location": "Valtech_Tests.launchValtech()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7004653857,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Valtech_Tests.startUp()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "check the H1 of each page",
+        "description": "",
+        "id": "tester-should-be-able-to-verify-all-valtech-website-pages.;check-the-h1-of-each-page;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 1113421259,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Valtech_Tests.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5796514250,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I am in WORK",
+            "match": {
+              "arguments": [
+                {
+                  "val": "WORK",
+                  "offset": 8
+                }
+              ],
+              "location": "Valtech_Tests.pages(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 95283828,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "H1 should be Work",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Work",
+                  "offset": 13
+                }
+              ],
+              "location": "Valtech_Tests.h1(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 15,
+            "name": "@Test"
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3165592644,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User in Valtech home page",
+            "match": {
+              "location": "Valtech_Tests.launchValtech()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8102480640,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Valtech_Tests.startUp()"
+            }
+          }
+        ],
+        "line": 33,
+        "name": "count the offices",
+        "description": "",
+        "id": "tester-should-be-able-to-verify-all-valtech-website-pages.;count-the-offices;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 886837288,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Valtech_Tests.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 424214033,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I am in CONTACT",
+            "match": {
+              "arguments": [
+                {
+                  "val": "CONTACT",
+                  "offset": 8
+                }
+              ],
+              "location": "Valtech_Tests.pages(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 128249867,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I should see 36 count",
+            "match": {
+              "arguments": [
+                {
+                  "val": "36",
+                  "offset": 13
+                }
+              ],
+              "location": "Valtech_Tests.offices(int)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 26,
+            "name": "@Test"
+          }
+        ]
+      }
+    ],
+    "name": "Tester should be able to verify all Valtech website pages.",
+    "description": "\r\nAs a Tester,\r\nI would like to open valtech websit,\r\nSo that I can verify all valtech pages are build as per requirements.",
+    "id": "tester-should-be-able-to-verify-all-valtech-website-pages.",
+    "keyword": "Feature",
+    "uri": "valtech_tests.feature"
+  }
+]
